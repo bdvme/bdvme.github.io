@@ -1,0 +1,225 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Дмитрий
+    tagline: DevOps-инженер
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: 'bdv_me@icloud.com'
+    phone: #+7 (123) 123-45-67
+    timezone: Россия/Москва
+    citizenship:
+    website: #it.bdvme.pro #do not add http://
+    linkedin:
+    xing: 
+    github: 
+    telegram: username1982 # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: #https://www.sejda.com/html-to-pdf?save-link=http://it.bdvme.pro&viewportWidth=1920&pageSize=A3
+
+    languages:
+      title: Языки
+      info:
+        - idiom: Русский
+          level: родной
+
+        - idiom: English
+          level: Tech level
+
+    interests:
+      title: Интересы
+      info:
+        - item: Туризм
+          link:
+
+        - item: Сноуборд
+          link:
+
+        - item: DIY IoT
+          link:
+
+career-profile:
+    title: Профиль
+    summary: |
+      Ведущий инженер-программист с опытом (20+ лет), техническими компетенциями и опытом управления проектами в следующих областях: <br>
+        - участие в проектах для нужд госпредприятий
+        - разработка и сопровождение встроенного ПО
+        - адаптация исходных кодов ПО под требования заказчика
+        - работа с вычислительными платформами на процессорах x86, ARM, процессорах отечественной разработки
+        - разработка shell-скриптов
+        - написание драйверов под ОС Linux
+        - работа с OpenSource ПО
+        - применение практик DevOps-методологии
+      
+education:
+    title: Образование
+    info:
+      - degree: DevOps-инженер
+        university: ООО "Нетология"
+        time: 2021 - 2023
+        details: |
+          Успешно прошел профессиональную переподготовку по курсу DevOps-инженер, получил сертификаты и диплом
+
+      - degree: Магистр 
+        university: РГТУ «МАТИ» им. К.Э. Циолковского
+        time: 2000 - 2006
+        details: |
+            Дипломная работа: Разработка автоматизированного рабочего места электромеханика (АРМ-ШН) для автоматической регулировки скорости движения поездов Московского метрополитена 
+
+experiences:
+    title: Опыт
+    info:
+      - role: Ведущий инженер-программист <br> отдела технологических разработок
+        time: 2015 - настоящее время
+        company: NDA, Москва
+        details: |
+          Программирование на языках:
+            - Python
+            - C/C++
+
+          Технический стек: 
+            - DevOps-методология
+            - GitFlow
+            - Ansible
+            - Docker
+            - Terraform
+            - Git
+            - Gitlab
+            - CI/CD
+
+          Задачи:
+            - Разработка ПО для целей импортозамещения
+            - Построение пайплайнов в Gitlab CI/CD
+            - Написание скриптов на Bash, Python
+            - Развертывание и сопровождение систем мониторинга (Prometheus, Grafana)
+            - Написание скриптов автоматизации доставки артефакта (прошивка для микроконтроллера) до конечного продукта (hardware) и последуюшего его внедрения и тестирования
+            - Использование Docker
+
+      - role: Ведущий инженер-программист <br> инженерно-технического центра
+        time: 2012 - 2015
+        company: NDA, Москва
+        details: |
+          Программирование на языках:
+            - C/C++
+
+          Разработка базовой системы ввода-вывода (БИОС) для промышленного ПК
+      - role: Ведущий инженер-программист отдела разработки <br> высокопроизводительных ЭВМ
+        time: 2006 - 2012
+        company: NDA, Москва
+        details: |
+          Программирование на языках:
+          - C/C++
+
+          Разработка базовой системы ввода-вывода (БИОС) для одноплатного компьютера типа "Тонкий клиент" на базе Intel Atom
+      - role: Инженер-электроник отдела разработки <br> высокопроизводительных ЭВМ
+        time: 2004 - 2006
+        company: NDA, Москва
+        details: |
+          Программирование на языках:
+            - VHDL
+            - AHDL
+            - C/C++
+            - Visual C++
+
+          Разработка автоматизированного рабочего места электромеханика (АРМ-ШН) для автоматической регулировки скорости движения поездов Московского метрополитена 
+
+certifications:
+      title: Сертификаты
+      list:
+        - name: DevOps и системное администрирование
+          start: 2022
+          end: 2023
+          organization: Нетология
+          credentialid: DEVSYS-21
+          credentialurl: www.netology.ru
+          credentialname: Нетология
+          details: 
+        - name: Виртуализация, базы данных и Terraform
+          start: 2023
+          end: 2023
+          organization: Нетология
+          credentialid: VIRT-21
+          credentialurl: www.netology.ru
+          credentialname: Нетология
+          details:
+        - name: CI, мониторинг и управление конфигурациями
+          start: 2023
+          end: 2023
+          organization: Нетология
+          credentialid: MNT-21
+          credentialurl: www.netology.ru
+          credentialname: Нетология
+          details:
+        - name: Администрирование и конфигурация Kubernetes
+          start: 2023
+          end: 2023
+          organization: Нетология
+          credentialid: DEVKUB-21
+          credentialurl: www.netology.ru
+          credentialname: Нетология
+          details:
+        - name: Kubernetes и облачные сервисы
+          start: 2023
+          end: 2023
+          organization: Нетология
+          credentialid: CLOKUB-21
+          credentialurl: www.netology.ru
+          credentialname: Нетология
+          details:
+        - name: Дипломный практикум по курсу DevOps-инженер
+          start: 2023
+          end: 2023
+          organization: Нетология
+          credentialid: DEVOPS-21
+          credentialurl: www.netology.ru 
+          credentialname: Нетология
+          details: 
+
+projects:
+    title: Проекты
+    intro: |
+      - Выполнение проектов (более 4) по разработке ПО для целей импортозамещения для госпредприятий
+      - Дипломная работа курса DevOps-инженер
+
+    assignments:
+      - title: Дипломная работа курса DevOps-инженер
+        link: "https://github.com/bdvme/devops_diplom"
+        tagline: "Дипломный практикум в Yandex.Cloud"
+
+skills:
+    title: Профессиональные навыки
+
+    toolset:
+      - name: Python, C/C++, BASH, Golang
+        level: 70%
+      
+      - name: Ansible, Terraform, Git, Gitlab/GitHub, Docker, CI/CD, Vagrant
+        level: 75%
+
+      - name: STM32, Миландр, Эльбрус, Atmel
+        level: 70%
+
+      - name: Atmel Studio, Keil uVision, Eclipse, Visual Studio Code
+        level: 75%
+
+      - name: Agile, SCRUM, DevOps
+        level: 70%
+      
+      - name: Redmine
+        level: 60%
+  
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
